@@ -1,23 +1,19 @@
-# Project Title
-
-
-One Paragraph of project description goes here
+# Pose Detection
+Deep learning model for the classification of poses in images using Mask RCNN and VGG19.
+This model classifies 15 different * [poses](https://github.com/CannyAss/Pose-Detector/tree/master/train).
+Model can be easily adapted to classify new poses provided that the dataset is given. 
+Archive of submission for Today I Learned Ai Camp 2019, with a final validation score of 0.70989.
 
 
 ## Getting Started
 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-
 ### Prerequisites
 
 
-What things you need to install the software and how to install them
-
-
+Clone this github respository
 ```
-Give examples
+!git clone github.com/CannyAss/Pose-Detector
 ```
 
 
@@ -74,16 +70,10 @@ Give an example
 ```
 
 
-## Deployment
-
-
-Add additional notes about how to deploy this on a live system
-
-
 ## Built With
 
 * [Mask_RCNN](https://github.com/matterport/Mask_RCNN) - The library used for instance segmentation
-* [Keras](https://keras.io/applications/) - The deep learning model used for classification
+* [Keras](https://keras.io/applications/) - The deep learning module used for classification
 
 
 
