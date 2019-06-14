@@ -1,7 +1,8 @@
 # Pose Detection
 Deep learning model for the classification of poses in images using Mask RCNN and VGG19.
-This model classifies 15 different * [poses](https://github.com/CannyAss/Pose-Detector/tree/master/train).
-Model can be easily adapted to classify new poses provided that the dataset is given. 
+This model classifies 15 different [poses](https://github.com/CannyAss/Pose-Detector/tree/master/train).
+Model can be easily adapted to classify new poses (maximum of 2 persons) provided that the dataset is given.
+Outline of model architecture is [here](https://docs.google.com/presentation/d/1bKgrev_AaPP7kcs3eIM6DbNdq2MhLEgCRjIej_ouhaE/edit#slide=id.g5bd69779d2_0_64).
 Archive of submission for Today I Learned Ai Camp 2019, with a final validation score of 0.70989.
 
 
