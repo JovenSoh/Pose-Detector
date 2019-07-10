@@ -7,7 +7,7 @@ Archive of submission for Today I Learned Ai Camp 2019, with a final validation 
 
 
 ## Model Architecture
-![Lorem ipsum](https://raw.githubusercontent.com/CannyAss/Pose-Detector/ModelArchitecture.png)
+![Lorem ipsum](Pose-Detector/ModelArchitecture.png)
 
 ## Getting Started
 
