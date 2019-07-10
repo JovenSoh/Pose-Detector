@@ -6,6 +6,9 @@ Outline of model architecture is [here](https://docs.google.com/presentation/d/1
 Archive of submission for Today I Learned Ai Camp 2019, with a final validation score of 0.70989.
 
 
+## Model Architecture
+![Lorem ipsum](https://raw.githubusercontent.com/CannyAss/Pose-Detector/Model Architecture.png)
+
 ## Getting Started
 
 
