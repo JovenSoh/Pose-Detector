@@ -64,10 +64,11 @@ def display_instances(image, masks, class_ids):
                    'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors',
                    'teddy bear', 'hair drier', 'toothbrush']
         person_ids = []
+        #only take the person masks
         for i in range(num_of_masks):
             if class_names[class_ids[i]] == 'person':
                 person_ids.append(i)
-        
+        #take 2 if there are two people
         biggest_size = 0
         biggest_id = 0
         if len(person_ids) == 2:
@@ -76,6 +77,7 @@ def display_instances(image, masks, class_ids):
             masks[:,:,biggest_id] = np.bitwise_or(mask_1,mask_2)
         elif len(person_ids) == 1:
             biggest_id = person_ids[0]
+        #if more than two take two
         elif len(person_ids) > 2:
             for person_id in person_ids:
                 mask = masks[:,:, person_id]

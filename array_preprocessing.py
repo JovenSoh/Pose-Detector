@@ -39,11 +39,10 @@ def array_preprocessing(test_images):
 	mask_set = np.empty((0,480,640,3))
 	for img_id in range(len(test_images)):
 		img = test_images[img_id][:,:,:]
+		#create a mask
 		results = model.detect([img], verbose=1)
 		r = results[0]
 		data = append_array.display_instances(img, r['masks'],r['class_ids'])
-		print(data.shape)
-		print(type(data))
 		mask_set = np.append(mask_set,[data],axis = 0)
 	return mask_set
 test_images = load_img('/Users/apple/Desktop/untitledfolder/187776_205.png')
